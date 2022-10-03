@@ -5,6 +5,7 @@ export default function bubble_sort(arr: number[]): void {
             const tmp = arr[j]
             arr[j] = arr[j+1]
             arr[j+1] = tmp
+         let tmp2 = arr[j+1]
         }
   } 
 
